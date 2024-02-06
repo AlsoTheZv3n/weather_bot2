@@ -5,6 +5,12 @@
 # https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration
 parameters:
 
+    # OPEN WEATHER API
+    app.open-weather.host: 'https://api.openweathermap.org/data/2.5/weather'
+    app.open-weather.key: '5b015f5b6b7045a929439fbf6be32b79'
+    app.open-weather.latitude: 47.070685
+    app.open-weather.longitude: 8.277965
+
 services:
     # default configuration for services in *this* file
     _defaults:
